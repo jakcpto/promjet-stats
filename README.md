@@ -30,4 +30,4 @@ d ##class(community.csvgen).GenerateFromURL("https://promjet.ru/api/get_csv/?tok
 
 This data is taken by IRIS, builds a cube and outputs it to DeepSee or DSW.
 
-Then we plan to transfer this information to Atscale, and from it to PowerBI and Tableau.
+Next step we plan to transfer this information via Atscale next to PowerBI and Tableau.
