@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Export generator="Cache" version="25">
+  <Document name="iris-PromJet.ZPM">
+    <Module>
+      <Name>iris-PromJet</Name>
+      <Version>1.0.2</Version>
+      <Dependencies>
+        <ModuleReference>
+          <Name>dsw</Name>
+          <Version>3.*</Version>
+        </ModuleReference>
+      </Dependencies>
+      <Packaging>module</Packaging>
+      <SourcesRoot>src</SourcesRoot>
+      <Resource Name="dc.irisbi.PKG"/>
+      <Resource Name="dc.irisbi.PromjetDb.GBL"/>
+      <Resource Name="*.DFI" />
+      <Invokes>
+        <Invoke Class="%DeepSee.Utils" Method="%BuildCube">
+          <Arg>PromjetCube</Arg>
+        </Invoke>
+      </Invokes>
+      <Parameter Name="folder" Value="irisapp" />
+      <FileCopy Name="dsw/irisapp.json" Target="${cspdir}dsw/configs/${folder}.json"/>
+    </Module>
+  </Document>
+</Export>
