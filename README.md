@@ -1,5 +1,5 @@
 # promjetstats
-Statistics from promjet.ru site compaired to Yandex.Matrika statistics
+Statistics of visitors from any site compaired to Yandex.Metrika statistics
 
 This application arose from the need to control the number of visitors to the client's site (promjet.ru).
 External visitor tracking systems (Yandex.Metrica, Google Analytics) show slightly distorted indicators, because the Firefox browser and some of its branches block tracking tools, which include metrics systems, as well as ad blockers block these services.
