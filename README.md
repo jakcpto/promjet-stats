@@ -10,6 +10,8 @@ We decided to rely on data from the Apache web server log files, they also recor
 In addition, we can see the load created by search robots and content indexing systems.
 ![image (1)](https://user-images.githubusercontent.com/41373877/132135944-fa79a1fe-e206-4d62-aa7b-a79ffcbb60f9.png)
 
+Currently working instance is accessible on [that production server] (http://atscale.teccod.ru:32792/dsw/index.html#/IRISAPP/Dashboard/Overview.dashboard)
+
 ## data source
 
 First, you need to place a specially written PHP script on the hosting that takes data from log files and converts them to CSV format.
