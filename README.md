@@ -15,8 +15,8 @@ Actual demo instance is accessible on [that demo server](http://atscale.teccod.r
 ## data source
 
 First, you need to place a specially written PHP script on the hosting that takes data from log files and converts them to CSV format.
-This file must be uploaded to webserver in folder "/api/get_scv/" from root of site.
-As an authentic tool we use token, send via GET request (added in URL).
+This file must be uploaded to webserver in folder "/api/get_scv/" from root of the site.
+As an authentic tool we use token, sent via GET request (added in URL).
 This token and filename for logfile is stored in the beginnig of index.php file.
 ![image](https://user-images.githubusercontent.com/41373877/132136017-961a5873-cd75-4582-a409-911a31aa6f6d.png)
 
