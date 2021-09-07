@@ -1,8 +1,8 @@
 <?php
 
     $key = '6ab225b4-43b5-410a-ac9a-11c1dc2a8c6c';
-    $logFilePath = 'promjet.archjet.ru-Aug-2021.gz';
-    $saveFileName = 'file.csv';
+    $logFilePath = '//home/bh59804/logs/promjet.archjet.ru-Aug-2021.gz';
+    $saveFileName = '08-2021.csv';
 
     if($_GET['token'] != $key){
         http_response_code(404);
@@ -27,7 +27,7 @@
 
         fputs($fp, implode(',', array(
             substr(stristr($item, '- -', true), 0, -1),
-            date("Y-m-d H:m:s", strtotime(substr(strstr($item, ']', true), strpos($item, '[') + 1))),
+            date("Y-m-d", strtotime(substr(strstr($item, ']', true), strpos($item, '[') + 1))),
             substr($list[5], 1),
             $list[6],
             $list[8],

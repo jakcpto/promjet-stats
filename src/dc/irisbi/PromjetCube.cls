@@ -14,10 +14,6 @@ XData Cube [ XMLNamespace = "http://www.intersystems.com/deepsee" ]
       </level>
       <level name="Day" displayName="Day" disabled="false" timeFunction="DayMonthYear" list="false" useDisplayValue="true" useAsFilter="true" hidden="false" factNumber="4">
       </level>
-      <level name="Hour" displayName="Hour" disabled="false" timeFunction="HourNumber" list="false" useDisplayValue="true" useAsFilter="true" hidden="false" factNumber="5">
-      </level>
-      <level name="Minute" displayName="Minute" disabled="false" timeFunction="MinuteNumber" list="false" useDisplayValue="true" useAsFilter="true" hidden="false" factNumber="6">
-      </level>
     </hierarchy>
   </dimension>
   <dimension name="agent" disabled="false" hasAll="false" allCaption="All agent" allDisplayName="agent" type="data" hidden="false" showHierarchies="default">

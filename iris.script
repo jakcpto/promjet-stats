@@ -11,6 +11,8 @@
     ;zpm "install csvgen"
     ;set file="https://promjet.ru/api/get_csv/?token=6ab225b4-43b5-410a-ac9a-11c1dc2a8c6c"
     ;zw ##class(community.csvgen).GenerateFromURL(file,",","dc.irisbi.Promjet")
+    ;set file="https://promjet.ru/api/get_csv_YaMetrika/?token=6ab225b4-43b5-410a-ac9a-11c1dc2a8c6c"
+    ;zw ##class(community.csvgen).GenerateFromURL(file,",","dc.irisbi.PromjetYM")
     ;zw ##class(%DeepSee.WizardUtils).%GenerateCubeDefinition("dc.irisbi.Promjet","PromjetCube","dc.irisbi.covid19cube",1)
 
 

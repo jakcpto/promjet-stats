@@ -3,7 +3,7 @@
   <Document name="iris-PromJet.ZPM">
     <Module>
       <Name>iris-PromJet</Name>
-      <Version>1.0.2</Version>
+      <Version>1.0.3</Version>
       <Dependencies>
         <ModuleReference>
           <Name>dsw</Name>
@@ -18,6 +18,9 @@
       <Invokes>
         <Invoke Class="%DeepSee.Utils" Method="%BuildCube">
           <Arg>PromjetCube</Arg>
+        </Invoke>
+        <Invoke Class="%DeepSee.Utils" Method="%BuildCube">
+          <Arg>PromjetYMCube</Arg>
         </Invoke>
       </Invokes>
       <Parameter Name="folder" Value="irisapp" />
