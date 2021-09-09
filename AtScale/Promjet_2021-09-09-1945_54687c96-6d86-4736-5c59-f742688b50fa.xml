@@ -1,0 +1,1154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.atscale.com/xsd/project_2_0" name="Promjet" version="2" xsi:schemaLocation="http://www.atscale.com/xsd/project_2_0 ../../../../../core/src/main/resources/com/atscale/engine/schema/project_2_0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <annotations>
+    <annotation name="migrationVersion">2021.1.1.3423</annotation>
+    <annotation name="version">6</annotation>
+    <annotation name="engineId">b75bb532-f193-496a-7524-0bcbce2ad9e4</annotation>
+    <annotation name="versionTag"></annotation>
+    <annotation name="publishDate">Published on Sep 9, 2021 at 6:16pm (+04)</annotation>
+  </annotations>
+  <properties>
+    <caption>Promjet</caption>
+    <visible>true</visible>
+    <aggressive-aggregate-promotion>false</aggressive-aggregate-promotion>
+    <aggregate-prediction>
+      <speculative-aggregates>false</speculative-aggregates>
+    </aggregate-prediction>
+    <preferred-aggregate-stores></preferred-aggregate-stores>
+  </properties>
+  <attributes>
+    <attribute-key id="832714b7-bcd6-40b5-8b6b-7eaf0c0748ea">
+      <properties>
+        <visible>true</visible>
+        <columns>1</columns>
+      </properties>
+    </attribute-key>
+    <attribute-key id="2f23a1fc-5b66-43f6-8362-96cfb69e5c01">
+      <properties>
+        <visible>true</visible>
+        <columns>1</columns>
+      </properties>
+    </attribute-key>
+    <attribute-key id="2072b9b7-5727-4db5-9d91-5c75f07bc82f">
+      <properties>
+        <visible>true</visible>
+        <columns>2</columns>
+      </properties>
+    </attribute-key>
+    <attribute-key id="3702c578-d9e0-4e2b-8511-0dea6ce5de61">
+      <properties>
+        <visible>true</visible>
+        <columns>1</columns>
+      </properties>
+    </attribute-key>
+    <attribute-key id="71c09781-4152-42ab-b7d5-64b638cb05a8">
+      <properties>
+        <visible>true</visible>
+        <columns>1</columns>
+      </properties>
+    </attribute-key>
+    <attribute-key id="7ad15b73-0905-4635-9a37-3c52af2e986f">
+      <properties>
+        <visible>true</visible>
+        <columns>2</columns>
+      </properties>
+    </attribute-key>
+    <attribute-key id="a5f49443-d5a4-4ce6-ac78-46b7c7b75752">
+      <properties>
+        <visible>true</visible>
+        <columns>3</columns>
+      </properties>
+    </attribute-key>
+    <keyed-attribute id="133e00e8-a115-485d-5da5-2be9d22d76e5" key-ref="832714b7-bcd6-40b5-8b6b-7eaf0c0748ea" name="Day">
+      <properties>
+        <caption>Day</caption>
+        <visible>true</visible>
+        <formatting>
+          <named-format>Medium Date</named-format>
+        </formatting>
+        <type>
+          <enum></enum>
+        </type>
+        <ordering>
+          <sort-key>
+            <order>ascending</order>
+            <value></value>
+          </sort-key>
+        </ordering>
+      </properties>
+    </keyed-attribute>
+    <keyed-attribute id="3be5ad77-f08d-40dd-48d0-872e3e7109e6" key-ref="2f23a1fc-5b66-43f6-8362-96cfb69e5c01" name="Core">
+      <properties>
+        <caption>Core</caption>
+        <visible>true</visible>
+        <type>
+          <enum></enum>
+        </type>
+        <ordering>
+          <sort-key>
+            <order>ascending</order>
+            <value></value>
+          </sort-key>
+        </ordering>
+      </properties>
+    </keyed-attribute>
+    <keyed-attribute id="fd022d78-3079-4cc2-6aef-34f3be3ed07c" key-ref="2072b9b7-5727-4db5-9d91-5c75f07bc82f" name="Device">
+      <properties>
+        <caption>Device</caption>
+        <visible>true</visible>
+        <type>
+          <enum></enum>
+        </type>
+        <ordering>
+          <sort-key>
+            <order>ascending</order>
+            <value></value>
+          </sort-key>
+        </ordering>
+      </properties>
+    </keyed-attribute>
+    <keyed-attribute id="cd24d279-76e3-43f4-5235-3cfa282d293e" key-ref="3702c578-d9e0-4e2b-8511-0dea6ce5de61" name="DateVisit">
+      <properties>
+        <caption>DateVisit</caption>
+        <visible>true</visible>
+        <formatting>
+          <named-format>Medium Date</named-format>
+        </formatting>
+        <type>
+          <enum></enum>
+        </type>
+        <ordering>
+          <sort-key>
+            <order>ascending</order>
+            <value></value>
+          </sort-key>
+        </ordering>
+      </properties>
+    </keyed-attribute>
+    <keyed-attribute id="dab1926b-5b67-437a-6ff6-efaad927fad0" key-ref="71c09781-4152-42ab-b7d5-64b638cb05a8" name="DeviceType">
+      <properties>
+        <caption>DeviceType</caption>
+        <visible>true</visible>
+        <type>
+          <enum></enum>
+        </type>
+        <ordering>
+          <sort-key>
+            <order>ascending</order>
+            <value></value>
+          </sort-key>
+        </ordering>
+      </properties>
+    </keyed-attribute>
+    <keyed-attribute id="d23d2482-cc80-4c0c-6caa-5fb4445b923b" key-ref="7ad15b73-0905-4635-9a37-3c52af2e986f" name="OsRoot">
+      <properties>
+        <caption>OsRoot</caption>
+        <visible>true</visible>
+        <type>
+          <enum></enum>
+        </type>
+        <ordering>
+          <sort-key>
+            <order>ascending</order>
+            <value></value>
+          </sort-key>
+        </ordering>
+      </properties>
+    </keyed-attribute>
+    <keyed-attribute id="5af63005-d240-4be1-4b66-760183163d1a" key-ref="a5f49443-d5a4-4ce6-ac78-46b7c7b75752" name="Os">
+      <properties>
+        <caption>Os</caption>
+        <visible>true</visible>
+        <type>
+          <enum></enum>
+        </type>
+        <ordering>
+          <sort-key>
+            <order>ascending</order>
+            <value></value>
+          </sort-key>
+        </ordering>
+      </properties>
+    </keyed-attribute>
+  </attributes>
+  <dimensions>
+    <dimension id="e98b5e66-bc72-47ae-6e46-4433b5ab40b1" name="TS">
+      <properties>
+        <visible>true</visible>
+        <dimension-type>Time</dimension-type>
+      </properties>
+      <hierarchy id="e1d26c34-aa36-4262-a6e2-9b2f1bfc63fb" name="TS">
+        <properties>
+          <caption>TS</caption>
+          <visible>true</visible>
+          <filter-empty>Always</filter-empty>
+          <default-member>
+            <all-member></all-member>
+          </default-member>
+        </properties>
+        <level primary-attribute="133e00e8-a115-485d-5da5-2be9d22d76e5">
+          <properties>
+            <unique-in-parent>false</unique-in-parent>
+            <visible>true</visible>
+            <level-type>TimeDays</level-type>
+          </properties>
+        </level>
+      </hierarchy>
+    </dimension>
+    <dimension id="32e8c066-73c4-454a-5ae0-42d76b609c81" name="Core">
+      <properties>
+        <visible>true</visible>
+        <dimension-type>Other</dimension-type>
+      </properties>
+      <hierarchy id="002533d6-8388-43b3-8f20-161f75fc8efb" name="Core">
+        <properties>
+          <caption>Core</caption>
+          <visible>true</visible>
+          <filter-empty>Always</filter-empty>
+          <default-member>
+            <all-member></all-member>
+          </default-member>
+        </properties>
+        <level primary-attribute="3be5ad77-f08d-40dd-48d0-872e3e7109e6">
+          <properties>
+            <unique-in-parent>false</unique-in-parent>
+            <visible>true</visible>
+          </properties>
+        </level>
+        <level primary-attribute="fd022d78-3079-4cc2-6aef-34f3be3ed07c">
+          <properties>
+            <unique-in-parent>false</unique-in-parent>
+            <visible>true</visible>
+          </properties>
+        </level>
+      </hierarchy>
+    </dimension>
+    <dimension id="f484840b-30e9-4eae-77b7-908059cd9e82" name="DateVisit">
+      <properties>
+        <visible>true</visible>
+        <dimension-type>Time</dimension-type>
+      </properties>
+      <hierarchy id="786ca3d9-59e8-4ecc-8f2f-ec3b8913c011" name="DateVisit">
+        <properties>
+          <caption>DateVisit</caption>
+          <visible>true</visible>
+          <filter-empty>Always</filter-empty>
+          <default-member>
+            <all-member></all-member>
+          </default-member>
+        </properties>
+        <level primary-attribute="cd24d279-76e3-43f4-5235-3cfa282d293e">
+          <properties>
+            <unique-in-parent>false</unique-in-parent>
+            <visible>true</visible>
+            <level-type>TimeDays</level-type>
+          </properties>
+        </level>
+      </hierarchy>
+    </dimension>
+    <dimension id="63fb5b28-9ff5-4878-6c0c-9ff20610b798" name="DeviceType">
+      <properties>
+        <visible>true</visible>
+        <dimension-type>Other</dimension-type>
+      </properties>
+      <hierarchy id="2cdc49f3-5eee-4e22-8b79-7353f261a982" name="DeviceType">
+        <properties>
+          <caption>DeviceType</caption>
+          <visible>true</visible>
+          <filter-empty>Always</filter-empty>
+          <default-member>
+            <all-member></all-member>
+          </default-member>
+        </properties>
+        <level primary-attribute="dab1926b-5b67-437a-6ff6-efaad927fad0">
+          <properties>
+            <unique-in-parent>false</unique-in-parent>
+            <visible>true</visible>
+          </properties>
+        </level>
+        <level primary-attribute="d23d2482-cc80-4c0c-6caa-5fb4445b923b">
+          <properties>
+            <unique-in-parent>false</unique-in-parent>
+            <visible>true</visible>
+          </properties>
+        </level>
+        <level primary-attribute="5af63005-d240-4be1-4b66-760183163d1a">
+          <properties>
+            <unique-in-parent>false</unique-in-parent>
+            <visible>true</visible>
+          </properties>
+        </level>
+      </hierarchy>
+    </dimension>
+  </dimensions>
+  <data-sets>
+    <data-set id="63740daf-a244-4bee-7879-31e3de6ea0bd" name="Fact">
+      <properties>
+        <allow-aggregates>true</allow-aggregates>
+      </properties>
+      <physical>
+        <connection id="Promjetstats"></connection>
+        <table>
+          <schema>dc_irisbi_PromjetCube</schema>
+          <name>Fact</name>
+        </table>
+        <immutable>false</immutable>
+        <column>
+          <name>ID</name>
+          <type>Long</type>
+        </column>
+        <column>
+          <name>%dspartition</name>
+          <type>Int</type>
+        </column>
+        <column>
+          <name>%sourceId</name>
+          <type>Long</type>
+        </column>
+        <column>
+          <name>DxTS</name>
+          <type>Date</type>
+        </column>
+        <column>
+          <name>DxTSFxDayMonthYear</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>DxTSFxMonthYear</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>DxTSFxYear</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>Dxagent</name>
+          <type>Long</type>
+        </column>
+        <column>
+          <name>Dxcore</name>
+          <type>Long</type>
+        </column>
+        <column>
+          <name>Dxdevice</name>
+          <type>Long</type>
+        </column>
+        <column>
+          <name>Dxfullurl</name>
+          <type>Long</type>
+        </column>
+        <column>
+          <name>Dxip</name>
+          <type>Long</type>
+        </column>
+        <column>
+          <name>Dxmethod</name>
+          <type>Long</type>
+        </column>
+        <column>
+          <name>Dxstatuscode</name>
+          <type>Long</type>
+        </column>
+        <column>
+          <name>Dxurl</name>
+          <type>Long</type>
+        </column>
+      </physical>
+      <logical></logical>
+    </data-set>
+    <data-set id="8590451b-f53d-41d2-4b49-d9dbaba8a46c" name="Promjet">
+      <properties>
+        <allow-aggregates>true</allow-aggregates>
+      </properties>
+      <physical>
+        <connection id="Promjetstats"></connection>
+        <table>
+          <schema>dc_irisbi</schema>
+          <name>Promjet</name>
+        </table>
+        <immutable>false</immutable>
+        <column>
+          <name>ID</name>
+          <type>Long</type>
+        </column>
+        <column>
+          <name>ip</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>TS</name>
+          <type>Date</type>
+        </column>
+        <column>
+          <name>method</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>url</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>status_code</name>
+          <type>Int</type>
+        </column>
+        <column>
+          <name>full_url</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>core</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>device</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>agent</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>OSName</name>
+          <sql>case when device IN(&#39;WIN64&#39;, &#39;WOW64&#39;) or device is null then &#39;Windows&#39; when device = &#39;LINUX X86_64&#39; or Instr(Device,&#39;Android&#39;,1)&gt;0 then &#39;Android&#39; when Instr(Device,&#39;Mac&#39;,1)&gt;0 then &#39;IOS&#39; when Instr(Device,&#39;Bot&#39;,1)&gt;0 then &#39;Bot&#39; END </sql>
+          <type>String</type>
+        </column>
+      </physical>
+      <logical>
+        <key-ref id="832714b7-bcd6-40b5-8b6b-7eaf0c0748ea" unique="false" complete="true">
+          <column>TS</column>
+        </key-ref>
+        <key-ref id="2f23a1fc-5b66-43f6-8362-96cfb69e5c01" unique="false" complete="true">
+          <column>core</column>
+        </key-ref>
+        <key-ref id="2072b9b7-5727-4db5-9d91-5c75f07bc82f" unique="false" complete="true">
+          <column>device</column>
+          <column>core</column>
+        </key-ref>
+        <attribute-ref id="133e00e8-a115-485d-5da5-2be9d22d76e5" complete="true">
+          <column>TS</column>
+        </attribute-ref>
+        <attribute-ref id="3be5ad77-f08d-40dd-48d0-872e3e7109e6" complete="true">
+          <column>core</column>
+        </attribute-ref>
+        <attribute-ref id="fd022d78-3079-4cc2-6aef-34f3be3ed07c" complete="true">
+          <column>device</column>
+        </attribute-ref>
+      </logical>
+    </data-set>
+    <data-set id="a0743d55-6986-44c7-6665-a3d1cc3d31a7" name="PromjetYM">
+      <properties>
+        <allow-aggregates>true</allow-aggregates>
+      </properties>
+      <physical>
+        <connection id="Promjetstats"></connection>
+        <table>
+          <schema>dc_irisbi</schema>
+          <name>PromjetYM</name>
+        </table>
+        <immutable>false</immutable>
+        <column>
+          <name>ID</name>
+          <type>Long</type>
+        </column>
+        <column>
+          <name>DateVisit</name>
+          <type>Date</type>
+        </column>
+        <column>
+          <name>OS</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>OSRoot</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>Browser</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>DeviceType</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>AdBlock</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>TrafficSource</name>
+          <type>String</type>
+        </column>
+        <column>
+          <name>Sessions</name>
+          <type>Int</type>
+        </column>
+        <column>
+          <name>Users</name>
+          <type>Int</type>
+        </column>
+      </physical>
+      <logical>
+        <key-ref id="3702c578-d9e0-4e2b-8511-0dea6ce5de61" unique="false" complete="true">
+          <column>DateVisit</column>
+        </key-ref>
+        <key-ref id="71c09781-4152-42ab-b7d5-64b638cb05a8" unique="false" complete="true">
+          <column>DeviceType</column>
+        </key-ref>
+        <key-ref id="7ad15b73-0905-4635-9a37-3c52af2e986f" unique="false" complete="true">
+          <column>OSRoot</column>
+          <column>DeviceType</column>
+        </key-ref>
+        <key-ref id="a5f49443-d5a4-4ce6-ac78-46b7c7b75752" unique="false" complete="true">
+          <column>OS</column>
+          <column>DeviceType</column>
+          <column>OSRoot</column>
+        </key-ref>
+        <attribute-ref id="cd24d279-76e3-43f4-5235-3cfa282d293e" complete="true">
+          <column>DateVisit</column>
+        </attribute-ref>
+        <attribute-ref id="dab1926b-5b67-437a-6ff6-efaad927fad0" complete="true">
+          <column>DeviceType</column>
+        </attribute-ref>
+        <attribute-ref id="d23d2482-cc80-4c0c-6caa-5fb4445b923b" complete="true">
+          <column>OSRoot</column>
+        </attribute-ref>
+        <attribute-ref id="5af63005-d240-4be1-4b66-760183163d1a" complete="true">
+          <column>OS</column>
+        </attribute-ref>
+      </logical>
+    </data-set>
+  </data-sets>
+  <cubes>
+    <cube id="3542233c-67fb-4498-6182-cb9827940418" name="Promjet">
+      <properties>
+        <visible>false</visible>
+      </properties>
+      <attributes>
+        <attribute-key id="7a70a7b1-dbe1-4723-9274-b9534d829dac">
+          <properties>
+            <visible>true</visible>
+            <columns>1</columns>
+          </properties>
+        </attribute-key>
+        <attribute-key id="e29ba8c2-30fb-4435-970c-beb764eddc25">
+          <properties>
+            <visible>true</visible>
+            <columns>1</columns>
+          </properties>
+        </attribute-key>
+        <attribute-key id="c1262065-472d-4fbb-a1aa-2f670a6cdb70">
+          <properties>
+            <visible>true</visible>
+            <columns>1</columns>
+          </properties>
+        </attribute-key>
+        <attribute-key id="6ac727b1-bf9c-4658-bf73-d668aabca2d0">
+          <properties>
+            <visible>true</visible>
+            <columns>1</columns>
+          </properties>
+        </attribute-key>
+        <attribute-key id="ee8ac5a9-921a-4eb7-b66f-babcb69a6659">
+          <properties>
+            <visible>true</visible>
+            <columns>1</columns>
+          </properties>
+        </attribute-key>
+        <attribute-key id="84f32b24-5926-4e26-850c-b4de717566d7">
+          <properties>
+            <visible>true</visible>
+            <columns>1</columns>
+          </properties>
+        </attribute-key>
+        <attribute-key id="68f260cb-0c6c-462e-a50b-63af60f9dca3">
+          <properties>
+            <visible>true</visible>
+            <columns>1</columns>
+          </properties>
+        </attribute-key>
+        <attribute-key id="97447eb1-bec2-4c5d-87d6-23088a33fc20">
+          <properties>
+            <visible>true</visible>
+            <columns>1</columns>
+          </properties>
+        </attribute-key>
+        <attribute-key id="621e4c11-6381-49cb-b21c-b5bc4fb26fa0">
+          <properties>
+            <visible>true</visible>
+            <columns>1</columns>
+          </properties>
+        </attribute-key>
+        <attribute-key id="70c066b0-9c78-4fe4-a237-83e41023c6f4">
+          <properties>
+            <visible>true</visible>
+            <columns>1</columns>
+          </properties>
+        </attribute-key>
+        <attribute-key id="e3b5d07c-31a5-4ba8-aba2-2bd5e06b4eac">
+          <properties>
+            <visible>true</visible>
+            <columns>1</columns>
+          </properties>
+        </attribute-key>
+        <attribute-key id="b5ead4ff-6cb9-4753-92cd-d2e6b24231b2">
+          <properties>
+            <visible>true</visible>
+            <columns>1</columns>
+            <empty-values>
+              <value>Other</value>
+            </empty-values>
+          </properties>
+        </attribute-key>
+        <attribute-key id="f44086a9-b028-4046-bdeb-195c124bdc63">
+          <properties>
+            <visible>true</visible>
+            <columns>1</columns>
+          </properties>
+        </attribute-key>
+        <attribute-key id="afb0ff8d-64d1-4a0f-9ce3-e01229b77de1">
+          <properties>
+            <visible>true</visible>
+            <columns>1</columns>
+          </properties>
+        </attribute-key>
+        <keyed-attribute id="181d2137-a20d-48dc-b3be-0a27c1606ee1" key-ref="e29ba8c2-30fb-4435-970c-beb764eddc25" name="Agent">
+          <properties>
+            <caption>Agent</caption>
+            <visible>true</visible>
+            <type>
+              <enum></enum>
+            </type>
+          </properties>
+        </keyed-attribute>
+        <keyed-attribute id="125c1916-78c6-4096-b7e3-a23c32e3c551" key-ref="c1262065-472d-4fbb-a1aa-2f670a6cdb70" name="Full_Url">
+          <properties>
+            <caption>Full_Url</caption>
+            <visible>true</visible>
+            <type>
+              <enum></enum>
+            </type>
+          </properties>
+        </keyed-attribute>
+        <keyed-attribute id="a9a54c91-e874-439d-af7b-0de19e65f10a" key-ref="6ac727b1-bf9c-4658-bf73-d668aabca2d0" name="Ip">
+          <properties>
+            <caption>Ip</caption>
+            <visible>true</visible>
+            <type>
+              <enum></enum>
+            </type>
+          </properties>
+        </keyed-attribute>
+        <keyed-attribute id="b4aea986-82ff-469d-b29d-0c175da4954d" key-ref="ee8ac5a9-921a-4eb7-b66f-babcb69a6659" name="Method">
+          <properties>
+            <caption>Method</caption>
+            <visible>true</visible>
+            <type>
+              <enum></enum>
+            </type>
+          </properties>
+        </keyed-attribute>
+        <keyed-attribute id="5a072c5d-dc5b-4714-8071-1f0ec82751a7" key-ref="84f32b24-5926-4e26-850c-b4de717566d7" name="Url">
+          <properties>
+            <caption>Url</caption>
+            <visible>true</visible>
+            <type>
+              <enum></enum>
+            </type>
+          </properties>
+        </keyed-attribute>
+        <keyed-attribute id="c2e6bbb8-304a-40d6-b603-ff021855ae4c" key-ref="68f260cb-0c6c-462e-a50b-63af60f9dca3" name="Status Code">
+          <properties>
+            <caption>Status Code</caption>
+            <visible>true</visible>
+            <type>
+              <enum></enum>
+            </type>
+          </properties>
+        </keyed-attribute>
+        <keyed-attribute id="7fe82f14-8062-40b0-9c33-3bab878b3b6b" key-ref="97447eb1-bec2-4c5d-87d6-23088a33fc20" name="Browser">
+          <properties>
+            <caption>Browser</caption>
+            <visible>true</visible>
+            <type>
+              <enum></enum>
+            </type>
+          </properties>
+        </keyed-attribute>
+        <keyed-attribute id="78ce0633-6ee3-409d-b64c-090f0a8ed51d" key-ref="621e4c11-6381-49cb-b21c-b5bc4fb26fa0" name="Os">
+          <properties>
+            <caption>Os</caption>
+            <visible>true</visible>
+            <type>
+              <enum></enum>
+            </type>
+          </properties>
+        </keyed-attribute>
+        <keyed-attribute id="1a097c8c-4792-4dc9-8096-73f08119d7ef" key-ref="70c066b0-9c78-4fe4-a237-83e41023c6f4" name="Osr Oot">
+          <properties>
+            <caption>Osr Oot</caption>
+            <visible>true</visible>
+            <type>
+              <enum></enum>
+            </type>
+          </properties>
+        </keyed-attribute>
+        <keyed-attribute id="79e5f573-02e3-4cc9-b871-e87753bfcdd3" key-ref="e3b5d07c-31a5-4ba8-aba2-2bd5e06b4eac" name="Traffic Source">
+          <properties>
+            <caption>Traffic Source</caption>
+            <visible>true</visible>
+            <type>
+              <enum></enum>
+            </type>
+          </properties>
+        </keyed-attribute>
+        <keyed-attribute id="504c432f-a009-44cd-a55d-2785d2aae154" key-ref="b5ead4ff-6cb9-4753-92cd-d2e6b24231b2" name="Os_Name">
+          <properties>
+            <caption>Os_Name</caption>
+            <visible>true</visible>
+            <type>
+              <enum></enum>
+            </type>
+            <ordering>
+              <sort-key>
+                <order>ascending</order>
+                <value></value>
+              </sort-key>
+            </ordering>
+            <empty-values>
+              <value>Other</value>
+            </empty-values>
+          </properties>
+        </keyed-attribute>
+        <keyed-attribute id="8f5fd024-9a05-4520-b3d0-f65836f95c6a" key-ref="f44086a9-b028-4046-bdeb-195c124bdc63" name="Status_Code">
+          <properties>
+            <caption>Status_Code</caption>
+            <visible>true</visible>
+            <type>
+              <enum></enum>
+            </type>
+          </properties>
+        </keyed-attribute>
+        <attribute id="5f13a851-f074-4127-871b-3cf4f557eff9" name="m_ip_distinct">
+          <properties>
+            <caption>CountPromjet</caption>
+            <visible>true</visible>
+            <type>
+              <count-distinct>
+                <key-ref id="7a70a7b1-dbe1-4723-9274-b9534d829dac"></key-ref>
+                <approximate>false</approximate>
+              </count-distinct>
+            </type>
+          </properties>
+        </attribute>
+        <attribute id="f56f3144-57ee-4ae4-8192-aa46faa517f7" name="m_Sessions_sum">
+          <properties>
+            <caption>Sessions</caption>
+            <visible>true</visible>
+            <type>
+              <measure>
+                <default-aggregation>SUM</default-aggregation>
+              </measure>
+            </type>
+          </properties>
+        </attribute>
+        <attribute id="f0efdfeb-762c-44ec-bfcc-5e56d19bca30" name="m_Users_sum">
+          <properties>
+            <caption>Users</caption>
+            <visible>true</visible>
+            <type>
+              <measure>
+                <default-aggregation>SUM</default-aggregation>
+              </measure>
+            </type>
+          </properties>
+        </attribute>
+        <attribute id="3c1eabd2-96f9-4250-819a-4fd4dfc574ac" name="m_status_code_count">
+          <properties>
+            <caption>CountStatusCode</caption>
+            <visible>true</visible>
+            <type>
+              <count-nonnull>
+                <key-ref id="afb0ff8d-64d1-4a0f-9ce3-e01229b77de1"></key-ref>
+              </count-nonnull>
+            </type>
+          </properties>
+        </attribute>
+      </attributes>
+      <dimensions>
+        <dimension id="bf7360f9-b633-4b38-b18a-e4fd1053e8fe" name="Agent">
+          <properties>
+            <visible>true</visible>
+          </properties>
+          <hierarchy id="b75ed488-60d4-4511-9eae-3b7fc33d68a2" name="Agent">
+            <properties>
+              <caption>Agent</caption>
+              <visible>true</visible>
+              <filter-empty>Always</filter-empty>
+              <default-member>
+                <all-member></all-member>
+              </default-member>
+            </properties>
+            <level primary-attribute="181d2137-a20d-48dc-b3be-0a27c1606ee1">
+              <properties>
+                <unique-in-parent>false</unique-in-parent>
+                <visible>true</visible>
+              </properties>
+            </level>
+          </hierarchy>
+        </dimension>
+        <dimension id="95a079c4-ccce-4a02-9831-69b04d1ee1cf" name="Full_Url">
+          <properties>
+            <visible>true</visible>
+          </properties>
+          <hierarchy id="03b90fe3-9f98-494e-8b58-a0974808735d" name="Full_Url">
+            <properties>
+              <caption>Full_Url</caption>
+              <visible>true</visible>
+              <filter-empty>Always</filter-empty>
+              <default-member>
+                <all-member></all-member>
+              </default-member>
+            </properties>
+            <level primary-attribute="125c1916-78c6-4096-b7e3-a23c32e3c551">
+              <properties>
+                <unique-in-parent>false</unique-in-parent>
+                <visible>true</visible>
+              </properties>
+            </level>
+          </hierarchy>
+        </dimension>
+        <dimension id="e7cd71a5-6c9d-47a1-8866-bc83cacb7d55" name="Ip">
+          <properties>
+            <visible>true</visible>
+          </properties>
+          <hierarchy id="c79c956d-8de0-47d6-a9a6-a818ba7b9fea" name="Ip">
+            <properties>
+              <caption>Ip</caption>
+              <visible>true</visible>
+              <filter-empty>Always</filter-empty>
+              <default-member>
+                <all-member></all-member>
+              </default-member>
+            </properties>
+            <level primary-attribute="a9a54c91-e874-439d-af7b-0de19e65f10a">
+              <properties>
+                <unique-in-parent>false</unique-in-parent>
+                <visible>true</visible>
+              </properties>
+            </level>
+          </hierarchy>
+        </dimension>
+        <dimension id="51e4b088-8e89-4177-ba4f-2754ed58507a" name="Method">
+          <properties>
+            <visible>true</visible>
+          </properties>
+          <hierarchy id="704385e5-4873-44ab-81e9-31e2494a01e5" name="Method">
+            <properties>
+              <caption>Method</caption>
+              <visible>true</visible>
+              <filter-empty>Always</filter-empty>
+              <default-member>
+                <all-member></all-member>
+              </default-member>
+            </properties>
+            <level primary-attribute="b4aea986-82ff-469d-b29d-0c175da4954d">
+              <properties>
+                <unique-in-parent>false</unique-in-parent>
+                <visible>true</visible>
+              </properties>
+            </level>
+          </hierarchy>
+        </dimension>
+        <dimension id="21614496-d37f-4c93-9117-12b567b4b845" name="Url">
+          <properties>
+            <visible>true</visible>
+          </properties>
+          <hierarchy id="83bd55bc-105e-4b65-84db-06ce78e3c20f" name="Url">
+            <properties>
+              <caption>Url</caption>
+              <visible>true</visible>
+              <filter-empty>Always</filter-empty>
+              <default-member>
+                <all-member></all-member>
+              </default-member>
+            </properties>
+            <level primary-attribute="5a072c5d-dc5b-4714-8071-1f0ec82751a7">
+              <properties>
+                <unique-in-parent>false</unique-in-parent>
+                <visible>true</visible>
+              </properties>
+            </level>
+          </hierarchy>
+        </dimension>
+        <dimension id="77c1bfc8-35e3-4cd8-a421-1ba424a87af8" name="Status Code">
+          <properties>
+            <visible>true</visible>
+          </properties>
+          <hierarchy id="d9c14b82-e618-4243-bd03-f5c1ceb2ec0c" name="Status Code">
+            <properties>
+              <caption>Status Code</caption>
+              <visible>true</visible>
+              <filter-empty>Always</filter-empty>
+              <default-member>
+                <all-member></all-member>
+              </default-member>
+            </properties>
+            <level primary-attribute="c2e6bbb8-304a-40d6-b603-ff021855ae4c">
+              <properties>
+                <unique-in-parent>false</unique-in-parent>
+                <visible>true</visible>
+              </properties>
+            </level>
+          </hierarchy>
+        </dimension>
+        <dimension id="7e4f8da4-1ff8-46c0-aa88-00d077b281d8" name="Browser">
+          <properties>
+            <visible>true</visible>
+          </properties>
+          <hierarchy id="db5bb1d9-53c3-4c1c-99b7-c83f0a1aeff8" name="Browser">
+            <properties>
+              <caption>Browser</caption>
+              <visible>true</visible>
+              <filter-empty>Always</filter-empty>
+              <default-member>
+                <all-member></all-member>
+              </default-member>
+            </properties>
+            <level primary-attribute="7fe82f14-8062-40b0-9c33-3bab878b3b6b">
+              <properties>
+                <unique-in-parent>false</unique-in-parent>
+                <visible>true</visible>
+              </properties>
+            </level>
+          </hierarchy>
+        </dimension>
+        <dimension id="3f8989da-f6ed-4450-8b7e-394691231146" name="Os">
+          <properties>
+            <visible>true</visible>
+          </properties>
+          <hierarchy id="c122268a-e7fd-4fcc-9b94-404b1c5f7e4f" name="Os">
+            <properties>
+              <caption>Os</caption>
+              <visible>true</visible>
+              <filter-empty>Always</filter-empty>
+              <default-member>
+                <all-member></all-member>
+              </default-member>
+            </properties>
+            <level primary-attribute="78ce0633-6ee3-409d-b64c-090f0a8ed51d">
+              <properties>
+                <unique-in-parent>false</unique-in-parent>
+                <visible>true</visible>
+              </properties>
+            </level>
+          </hierarchy>
+        </dimension>
+        <dimension id="21f4c829-575d-443c-8210-622acf2f67a9" name="Osr Oot">
+          <properties>
+            <visible>true</visible>
+          </properties>
+          <hierarchy id="b57fa905-d8ab-410d-94ca-2877ea1eccc3" name="Osr Oot">
+            <properties>
+              <caption>Osr Oot</caption>
+              <visible>true</visible>
+              <filter-empty>Always</filter-empty>
+              <default-member>
+                <all-member></all-member>
+              </default-member>
+            </properties>
+            <level primary-attribute="1a097c8c-4792-4dc9-8096-73f08119d7ef">
+              <properties>
+                <unique-in-parent>false</unique-in-parent>
+                <visible>true</visible>
+              </properties>
+            </level>
+          </hierarchy>
+        </dimension>
+        <dimension id="117c8cd2-278e-40a7-beaf-60cc7c8f9599" name="Traffic Source">
+          <properties>
+            <visible>true</visible>
+          </properties>
+          <hierarchy id="6da58f0a-62f2-4538-8063-7cc5cc356d6c" name="Traffic Source">
+            <properties>
+              <caption>Traffic Source</caption>
+              <visible>true</visible>
+              <filter-empty>Always</filter-empty>
+              <default-member>
+                <all-member></all-member>
+              </default-member>
+            </properties>
+            <level primary-attribute="79e5f573-02e3-4cc9-b871-e87753bfcdd3">
+              <properties>
+                <unique-in-parent>false</unique-in-parent>
+                <visible>true</visible>
+              </properties>
+            </level>
+          </hierarchy>
+        </dimension>
+        <dimension id="c4e97ba7-914b-4c63-b7c8-c8fb6469b989" name="Os_Name">
+          <properties>
+            <visible>true</visible>
+          </properties>
+          <hierarchy id="f3df8dec-cb67-4489-8bcc-ab572d10d74c" name="Os_Name">
+            <properties>
+              <caption>Os_Name</caption>
+              <visible>true</visible>
+              <filter-empty>Always</filter-empty>
+              <default-member>
+                <all-member></all-member>
+              </default-member>
+            </properties>
+            <level primary-attribute="504c432f-a009-44cd-a55d-2785d2aae154">
+              <properties>
+                <unique-in-parent>false</unique-in-parent>
+                <visible>true</visible>
+              </properties>
+            </level>
+          </hierarchy>
+        </dimension>
+        <dimension id="3ed53486-2d42-4a06-811b-205a661a77a8" name="Status_Code">
+          <properties>
+            <visible>true</visible>
+          </properties>
+          <hierarchy id="262c8f64-2de9-46e4-888f-6b5403571674" name="Status_Code">
+            <properties>
+              <caption>Status_Code</caption>
+              <visible>true</visible>
+              <filter-empty>Always</filter-empty>
+              <default-member>
+                <all-member></all-member>
+              </default-member>
+            </properties>
+            <level primary-attribute="8f5fd024-9a05-4520-b3d0-f65836f95c6a">
+              <properties>
+                <unique-in-parent>false</unique-in-parent>
+                <visible>true</visible>
+              </properties>
+            </level>
+          </hierarchy>
+        </dimension>
+      </dimensions>
+      <actions>
+        <properties>
+          <include-default-drill-through>true</include-default-drill-through>
+        </properties>
+      </actions>
+      <data-sets>
+        <data-set-ref id="8590451b-f53d-41d2-4b49-d9dbaba8a46c">
+          <properties>
+            <allow-aggregates>true</allow-aggregates>
+            <create-hinted-aggregate>false</create-hinted-aggregate>
+          </properties>
+          <logical>
+            <key-ref id="7a70a7b1-dbe1-4723-9274-b9534d829dac" unique="false" complete="true">
+              <column>ip</column>
+            </key-ref>
+            <key-ref id="832714b7-bcd6-40b5-8b6b-7eaf0c0748ea" unique="false" complete="false">
+              <column>TS</column>
+            </key-ref>
+            <key-ref id="e29ba8c2-30fb-4435-970c-beb764eddc25" unique="false" complete="true">
+              <column>agent</column>
+            </key-ref>
+            <key-ref id="2f23a1fc-5b66-43f6-8362-96cfb69e5c01" unique="false" complete="false">
+              <column>core</column>
+            </key-ref>
+            <key-ref id="c1262065-472d-4fbb-a1aa-2f670a6cdb70" unique="false" complete="true">
+              <column>full_url</column>
+            </key-ref>
+            <key-ref id="6ac727b1-bf9c-4658-bf73-d668aabca2d0" unique="false" complete="true">
+              <column>ip</column>
+            </key-ref>
+            <key-ref id="ee8ac5a9-921a-4eb7-b66f-babcb69a6659" unique="false" complete="true">
+              <column>method</column>
+            </key-ref>
+            <key-ref id="84f32b24-5926-4e26-850c-b4de717566d7" unique="false" complete="true">
+              <column>url</column>
+            </key-ref>
+            <key-ref id="68f260cb-0c6c-462e-a50b-63af60f9dca3" unique="false" complete="true">
+              <column>status_code</column>
+            </key-ref>
+            <key-ref id="b5ead4ff-6cb9-4753-92cd-d2e6b24231b2" unique="false" complete="true">
+              <column>OSName</column>
+            </key-ref>
+            <key-ref id="f44086a9-b028-4046-bdeb-195c124bdc63" unique="false" complete="true">
+              <column>status_code</column>
+            </key-ref>
+            <key-ref id="afb0ff8d-64d1-4a0f-9ce3-e01229b77de1" unique="false" complete="true">
+              <column>status_code</column>
+            </key-ref>
+            <attribute-ref id="181d2137-a20d-48dc-b3be-0a27c1606ee1" complete="true">
+              <column>agent</column>
+            </attribute-ref>
+            <attribute-ref id="125c1916-78c6-4096-b7e3-a23c32e3c551" complete="true">
+              <column>full_url</column>
+            </attribute-ref>
+            <attribute-ref id="a9a54c91-e874-439d-af7b-0de19e65f10a" complete="true">
+              <column>ip</column>
+            </attribute-ref>
+            <attribute-ref id="b4aea986-82ff-469d-b29d-0c175da4954d" complete="true">
+              <column>method</column>
+            </attribute-ref>
+            <attribute-ref id="5a072c5d-dc5b-4714-8071-1f0ec82751a7" complete="true">
+              <column>url</column>
+            </attribute-ref>
+            <attribute-ref id="c2e6bbb8-304a-40d6-b603-ff021855ae4c" complete="true">
+              <column>status_code</column>
+            </attribute-ref>
+            <attribute-ref id="504c432f-a009-44cd-a55d-2785d2aae154" complete="true">
+              <column>OSName</column>
+            </attribute-ref>
+            <attribute-ref id="8f5fd024-9a05-4520-b3d0-f65836f95c6a" complete="true">
+              <column>status_code</column>
+            </attribute-ref>
+          </logical>
+        </data-set-ref>
+        <data-set-ref id="a0743d55-6986-44c7-6665-a3d1cc3d31a7">
+          <properties>
+            <allow-aggregates>true</allow-aggregates>
+            <create-hinted-aggregate>false</create-hinted-aggregate>
+          </properties>
+          <logical>
+            <key-ref id="3702c578-d9e0-4e2b-8511-0dea6ce5de61" unique="false" complete="false">
+              <column>DateVisit</column>
+            </key-ref>
+            <key-ref id="97447eb1-bec2-4c5d-87d6-23088a33fc20" unique="false" complete="true">
+              <column>Browser</column>
+            </key-ref>
+            <key-ref id="71c09781-4152-42ab-b7d5-64b638cb05a8" unique="false" complete="false">
+              <column>DeviceType</column>
+            </key-ref>
+            <key-ref id="621e4c11-6381-49cb-b21c-b5bc4fb26fa0" unique="false" complete="true">
+              <column>OS</column>
+            </key-ref>
+            <key-ref id="70c066b0-9c78-4fe4-a237-83e41023c6f4" unique="false" complete="true">
+              <column>OSRoot</column>
+            </key-ref>
+            <key-ref id="e3b5d07c-31a5-4ba8-aba2-2bd5e06b4eac" unique="false" complete="true">
+              <column>TrafficSource</column>
+            </key-ref>
+            <attribute-ref id="f56f3144-57ee-4ae4-8192-aa46faa517f7" complete="true">
+              <column>Sessions</column>
+            </attribute-ref>
+            <attribute-ref id="f0efdfeb-762c-44ec-bfcc-5e56d19bca30" complete="true">
+              <column>Users</column>
+            </attribute-ref>
+            <attribute-ref id="7fe82f14-8062-40b0-9c33-3bab878b3b6b" complete="true">
+              <column>Browser</column>
+            </attribute-ref>
+            <attribute-ref id="78ce0633-6ee3-409d-b64c-090f0a8ed51d" complete="true">
+              <column>OS</column>
+            </attribute-ref>
+            <attribute-ref id="1a097c8c-4792-4dc9-8096-73f08119d7ef" complete="true">
+              <column>OSRoot</column>
+            </attribute-ref>
+            <attribute-ref id="79e5f573-02e3-4cc9-b871-e87753bfcdd3" complete="true">
+              <column>TrafficSource</column>
+            </attribute-ref>
+          </logical>
+        </data-set-ref>
+      </data-sets>
+      <calculated-members></calculated-members>
+      <aggregates></aggregates>
+    </cube>
+  </cubes>
+</schema>
