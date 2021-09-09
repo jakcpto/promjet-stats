@@ -32,4 +32,14 @@ d ##class(community.csvgen).GenerateFromURL("https://promjet.ru/api/get_csv/?tok
 
 This data is taken by IRIS, builds a cube and outputs it to DeepSee or DSW.
 
-Next step we plan to transfer this information via Atscale next to PowerBI and Tableau.
+Data from IRIS goes to AtScale server deployed at http://atscale.teccod.ru:10500/
+There builds a cube, merging data from hosting and from Yandex.Metrika
+![image](https://user-images.githubusercontent.com/41373877/132720887-700524d6-73e9-4924-9a14-0b61e76c569c.png)
+
+Dashboard on PowerBI get data from the cube and display it in widgets. Application published under [this link](https://app.powerbi.com/view?r=eyJrIjoiNzAxYTQ1NDAtNDY1ZC00ZTU2LWI3NDgtNjI5ZWZlMjc4NjU0IiwidCI6ImMwNDU1OGJhLWJiMzgtNDQzMC1iMDhkLThlMTYxMmQzY2NkOCIsImMiOjl9)
+![image](https://user-images.githubusercontent.com/41373877/132721077-9724703e-409e-4d70-8aa9-33dcdc1c468c.png)
+
+Filters works by click on value
+![image](https://user-images.githubusercontent.com/41373877/132721391-d1e94a64-f524-4ccc-8354-8a06773735b1.png)
+
+Next step we plan to duplicate dashboards on Tableau platform.
