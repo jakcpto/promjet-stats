@@ -30,7 +30,13 @@ zpm "install csvgen"
 d ##class(community.csvgen).GenerateFromURL("https://promjet.ru/api/get_csv/?token=6ab225b4-43b5-410a-ac9a-11c1dc2a8c6c",",","dc.irisbi.Promjet")
 ```
 
+Data from Yandex Metrika also needs special PHP file stored on hosting.
+Copy source file from "/api/get_csv_YaMetrika/" to your hosting root folder and change values in KEY and OAuthToken variables fitted to your projects.
+![image](https://user-images.githubusercontent.com/41373877/132722950-14a60ecf-b3df-413b-aa02-6937e8fe4761.png)
+
+## Cube
 This data is taken by IRIS, builds a cube and outputs it to DeepSee or DSW.
+Currently IRIS BI available at this [demo site](http://atscale.teccod.ru:32792/dsw/index.html#/IRISAPP/Dashboard/)
 
 Data from IRIS goes to AtScale server deployed at http://atscale.teccod.ru:10500/
 There builds a cube, merging data from hosting and from Yandex.Metrika
@@ -42,4 +48,4 @@ Dashboard on PowerBI get data from the cube and display it in widgets. Applicati
 Filters works by click on value
 ![image](https://user-images.githubusercontent.com/41373877/132721391-d1e94a64-f524-4ccc-8354-8a06773735b1.png)
 
-Next step we plan to duplicate dashboards on Tableau platform.
+Next step we plan to replicate dashboards on Tableau platform.
