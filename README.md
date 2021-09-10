@@ -1,5 +1,10 @@
-# promjetstats
-Statistics of visitors from any site compaired to Yandex.Metrika or Google Analitycs data.
+# promjet-stats
+Statistics of visitors from some site compaired to Yandex.Metrika or Google Analitycs data.
+____
+
+> Vote for us at [The Contest](https://openexchange.intersystems.com/contest/17)!
+> This is our first apllication.
+> We will be very thankfull for your support and feedback.
 
 This application arose from the need to control the number of visitors to the client's site (promjet.ru).
 External visitor tracking systems (Yandex.Metrica, Google Analytics) show slightly distorted indicators, because the Firefox browser and some of its branches block tracking tools, which include metrics systems, as well as ad blockers block these services.
@@ -10,9 +15,14 @@ We decided to rely on data from the Apache web server log files, they also recor
 In addition, we can see the load created by search robots and content indexing systems.
 ![image (1)](https://user-images.githubusercontent.com/41373877/132135944-fa79a1fe-e206-4d62-aa7b-a79ffcbb60f9.png)
 
-Actual demo instance is accessible on [that demo server](http://atscale.teccod.ru:32792/dsw/index.html#/IRISAPP/Dashboard/Overview.dashboard )
+Links to actual demos attached in the bottom.
 
-## data source
+## Requirements
+- Access to hosting via FTP or SSH
+- Access to logfiles from php scripts
+- Oauth token for Yandex.Metrika access
+
+## Data source
 
 First, you need to place a specially written PHP script on the hosting that takes data from log files and converts them to CSV format.
 This file must be uploaded to webserver in folder "/api/get_scv/" from root of the site.
@@ -36,6 +46,9 @@ Copy source file from "/api/get_csv_YaMetrika/" to your hosting root folder and 
 
 ## Cube
 This data is taken by IRIS, builds a cube and outputs it to DeepSee or DSW.
+The second Cube is built in AtScale
+
+## Examples
 Currently IRIS BI available at this [demo site](http://atscale.teccod.ru:32792/dsw/index.html#/IRISAPP/Dashboard/)
 
 Data from IRIS goes to AtScale server deployed at http://atscale.teccod.ru:10500/
