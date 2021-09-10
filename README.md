@@ -51,9 +51,9 @@ The second Cube is built in AtScale
 ## Examples
 Currently IRIS BI available at this [demo site](http://atscale.teccod.ru:32792/dsw/index.html#/IRISAPP/Dashboard/)
 
-Data from IRIS goes to AtScale server deployed at http://atscale.teccod.ru:10500/
+Data from IRIS goes to AtScale server deployed at [ISC AtScale Server](http://isc.atscale.com:10500/org/default/project/0c0248ba-95ac-4ded-6126-d6c29259c65a).
 There builds a cube, merging data from hosting and from Yandex.Metrika
-![image](https://user-images.githubusercontent.com/41373877/132720887-700524d6-73e9-4924-9a14-0b61e76c569c.png)
+![image](https://user-images.githubusercontent.com/41373877/132881969-5ce1da32-b434-4fd8-9939-b8d539d19172.png)
 
 Dashboard on PowerBI get data from the cube and display it in widgets. 
 Application published under [this link](https://app.powerbi.com/view?r=eyJrIjoiNzAxYTQ1NDAtNDY1ZC00ZTU2LWI3NDgtNjI5ZWZlMjc4NjU0IiwidCI6ImMwNDU1OGJhLWJiMzgtNDQzMC1iMDhkLThlMTYxMmQzY2NkOCIsImMiOjl9)
