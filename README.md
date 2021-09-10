@@ -15,7 +15,7 @@ We decided to rely on data from the Apache web server log files, they also recor
 In addition, we can see the load created by search robots and content indexing systems.
 ![image (1)](https://user-images.githubusercontent.com/41373877/132135944-fa79a1fe-e206-4d62-aa7b-a79ffcbb60f9.png)
 
-Links to actual demos attached in the bottom.
+Links to actual demos attached in [Examples](## Examples) .
 
 ## Requirements
 - Access to hosting via FTP or SSH
