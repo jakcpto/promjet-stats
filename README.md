@@ -61,4 +61,8 @@ Dashboard on PowerBI get data from the cube and display it in widgets. Applicati
 Filters works by click on value
 ![image](https://user-images.githubusercontent.com/41373877/132721391-d1e94a64-f524-4ccc-8354-8a06773735b1.png)
 
-Next step we plan to replicate dashboards on Tableau platform.
+Tableau version accessible with 
+[This Public Tableau Page 1](https://public.tableau.com/app/profile/vladislav4262/viz/Book2_16312770743230/Overview)
+[This Public Tableau Page 2](https://public.tableau.com/app/profile/vladislav4262/viz/Book2_16312770743230/YandexMetrika)
+
+Now we are making IRIS Logi version.
