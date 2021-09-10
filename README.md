@@ -55,7 +55,10 @@ Data from IRIS goes to AtScale server deployed at http://atscale.teccod.ru:10500
 There builds a cube, merging data from hosting and from Yandex.Metrika
 ![image](https://user-images.githubusercontent.com/41373877/132720887-700524d6-73e9-4924-9a14-0b61e76c569c.png)
 
-Dashboard on PowerBI get data from the cube and display it in widgets. Application published under [this link](https://app.powerbi.com/view?r=eyJrIjoiNzAxYTQ1NDAtNDY1ZC00ZTU2LWI3NDgtNjI5ZWZlMjc4NjU0IiwidCI6ImMwNDU1OGJhLWJiMzgtNDQzMC1iMDhkLThlMTYxMmQzY2NkOCIsImMiOjl9)
+Dashboard on PowerBI get data from the cube and display it in widgets. 
+Application published under [this link](https://app.powerbi.com/view?r=eyJrIjoiNzAxYTQ1NDAtNDY1ZC00ZTU2LWI3NDgtNjI5ZWZlMjc4NjU0IiwidCI6ImMwNDU1OGJhLWJiMzgtNDQzMC1iMDhkLThlMTYxMmQzY2NkOCIsImMiOjl9)
+Also we have an interactive page on our site with built-in PowerBI dashboards [there](https://teccod.ru/atscale-powerbi)
+
 ![image](https://user-images.githubusercontent.com/41373877/132721077-9724703e-409e-4d70-8aa9-33dcdc1c468c.png)
 
 Filters works by click on value
