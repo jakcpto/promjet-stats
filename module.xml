@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Export generator="Cache" version="25">
-  <Document name="iris-PromJet.ZPM">
+  <Document name="iris-webstat.ZPM">
     <Module>
-      <Name>iris-PromJet</Name>
+      <Name>iris-webstat</Name>
       <Version>1.0.3</Version>
       <Dependencies>
         <ModuleReference>
