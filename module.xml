@@ -13,6 +13,7 @@
       <Packaging>module</Packaging>
       <SourcesRoot>src</SourcesRoot>
       <Resource Name="dc.irisbi.PKG"/>
+      <Resource Name="KPI.PKG"/>
       <Resource Name="PromjetDB.GBL"/>
       <Resource Name="*.DFI" />
       <Invokes>
@@ -21,6 +22,8 @@
         </Invoke>
         <Invoke Class="%DeepSee.Utils" Method="%BuildCube">
           <Arg>PromjetYMCube</Arg>
+        </Invoke>
+        <Invoke Class="KPI.Devices" Method="GrantSQLAccess">
         </Invoke>
       </Invokes>
       <Parameter Name="folder" Value="irisapp" />
