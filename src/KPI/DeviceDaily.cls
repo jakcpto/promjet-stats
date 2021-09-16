@@ -11,6 +11,7 @@ XData KPI [ XMLNamespace = "http://www.intersystems.com/deepsee/kpi" ]
        SUM(CASE WHEN Device = 'Android' THEN 1 ELSE 0 end) as Android,
        SUM(CASE WHEN Device = 'Bot' THEN 1 ELSE 0 end) as Bot,
        SUM(CASE WHEN Device = 'IOS' THEN 1 ELSE 0 end) as IOS,
+       SUM(CASE WHEN Device = 'Other' THEN 1 ELSE 0 end) as Other,
        SUM(CASE WHEN Device = 'Windows' THEN 1 ELSE 0 end) as Windows
   From
     (select ts, case
@@ -26,7 +27,8 @@ XData KPI [ XMLNamespace = "http://www.intersystems.com/deepsee/kpi" ]
 <property name="Android" columnNo="2"/>
 <property name="Bot" columnNo="3"/>
 <property name="IOS" columnNo="4"/>
-<property name="Windows" columnNo="5"/>
+<property name="Other" columnNo="5"/>
+<property name="Windows" columnNo="6"/>
 
 </kpi>
 }
