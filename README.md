@@ -68,4 +68,8 @@ Tableau version accessible with
 [This Public Tableau Page 1](https://public.tableau.com/app/profile/vladislav4262/viz/Book2_16312770743230/Overview)
 [This Public Tableau Page 2](https://public.tableau.com/app/profile/vladislav4262/viz/Book2_16312770743230/YandexMetrika)
 
-Now we are making IRIS Logi version.
+Logi version of reports is also in repo.
+Screenshots attached below:
+![image (35)](https://user-images.githubusercontent.com/41373877/133738437-0cc8e5dc-1ea6-4491-8dbd-b1c7e9cbee6c.png)
+![image (37)](https://user-images.githubusercontent.com/41373877/133738475-bb4f8d1c-03ba-4811-9e27-6ed5ed881a75.png)
+Logi server deployed at http://atscale.teccod.ru:8888/jinfonet/welcome.jsp
