@@ -24,7 +24,7 @@
           <Arg>PromjetCube</Arg>
         </Invoke>
         <Invoke Class="%DeepSee.Utils" Method="%BuildCube">
-          <Arg>promjetLog2021Cube</Arg>
+          <Arg>pmLog2021Cube</Arg>
         </Invoke>
         <Invoke Class="%DeepSee.Utils" Method="%BuildCube">
           <Arg>PromjetYMCube</Arg>

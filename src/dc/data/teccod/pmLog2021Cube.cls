@@ -1,11 +1,11 @@
 /// 
-Class dc.data.teccod.promjetLog2021Cube Extends %DeepSee.CubeDefinition [ DependsOn = dc.data.teccod.promjetLog2021, ProcedureBlock ]
+Class dc.data.teccod.pmLog2021Cube Extends %DeepSee.CubeDefinition [ DependsOn = dc.data.teccod.pmLog2021, ProcedureBlock ]
 {
 
 /// Cube definition from Architect.
 XData Cube [ XMLNamespace = "http://www.intersystems.com/deepsee" ]
 {
-<cube xmlns="http://www.intersystems.com/deepsee" name="promjetLog2021Cube" displayName="promjetLog2021Cube" disabled="false" abstract="false" sourceClass="dc.data.teccod.promjetLog2021" namedFactNums="true" countMeasureName="%COUNT" bucketSize="8" bitmapChunkInMemory="false" precompute="0" disableListingGroups="false" enableSqlRestrict="false">
+<cube xmlns="http://www.intersystems.com/deepsee" name="pmLog2021Cube" displayName="pmLog2021Cube" disabled="false" abstract="false" sourceClass="dc.data.teccod.pmLog2021" namedFactNums="true" countMeasureName="%COUNT" bucketSize="8" bitmapChunkInMemory="false" precompute="0" disableListingGroups="false" enableSqlRestrict="false">
   <dimension name="action" disabled="false" hasAll="false" allCaption="All action" allDisplayName="action" type="data" hidden="false" showHierarchies="default">
     <hierarchy name="H1" disabled="false" hidden="false">
       <level name="action" disabled="false" sourceProperty="action" list="false" useDisplayValue="true" useAsFilter="true" hidden="false" factNumber="2">
