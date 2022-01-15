@@ -3,11 +3,15 @@
   <Document name="iris-webstat.ZPM">
     <Module>
       <Name>iris-webstat</Name>
-      <Version>1.1.0</Version>
+      <Version>1.1.1</Version>
       <Dependencies>
         <ModuleReference>
           <Name>dsw</Name>
           <Version>3.*</Version>
+        </ModuleReference>
+        <ModuleReference>
+          <Name>dataset-apachelog</Name>
+          <Version>1.0.5</Version>
         </ModuleReference>
       </Dependencies>
       <Packaging>module</Packaging>
@@ -15,16 +19,11 @@
       <Resource Name="dc.irisbi.PKG"/>
       <Resource Name="utils.PKG"/>
       <Resource Name="KPI.PKG"/>
-      <Resource Name="data.teccod.PKG" Directory="dc"/>
-      <Resource Name="dc.data.teccod.GBL"/>
       <Resource Name="*.DFI" />
       <Invoke Class="utils.utils" Method="import"></Invoke>
       <Invokes>
         <Invoke Class="%DeepSee.Utils" Method="%BuildCube">
           <Arg>PromjetCube</Arg>
-        </Invoke>
-        <Invoke Class="%DeepSee.Utils" Method="%BuildCube">
-          <Arg>pmLog2021Cube</Arg>
         </Invoke>
         <Invoke Class="%DeepSee.Utils" Method="%BuildCube">
           <Arg>PromjetYMCube</Arg>
