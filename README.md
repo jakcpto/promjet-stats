@@ -49,7 +49,7 @@ This data is taken by IRIS, builds a cube and outputs it to DeepSee or DSW.
 The second Cube is built in AtScale
 
 ## Examples
-Currently IRIS BI available at this [demo site](http://atscale.teccod.ru:32792/dsw/index.html#/IRISAPP/Dashboard/)
+Currently IRIS BI available at this [demo site](http://atscale.teccod.com:32792/dsw/index.html#/IRISAPP/Dashboard/)
 
 Data from IRIS goes to AtScale server deployed at [ISC AtScale Server](http://isc.atscale.com:10500/org/default/project/0c0248ba-95ac-4ded-6126-d6c29259c65a).
 There builds a cube, merging data from hosting and from Yandex.Metrika
@@ -72,4 +72,4 @@ Logi version of reports is also in repo.
 Screenshots attached below:
 ![image (35)](https://user-images.githubusercontent.com/41373877/133738437-0cc8e5dc-1ea6-4491-8dbd-b1c7e9cbee6c.png)
 ![image (37)](https://user-images.githubusercontent.com/41373877/133738475-bb4f8d1c-03ba-4811-9e27-6ed5ed881a75.png)
-Logi server deployed at http://atscale.teccod.ru:8888/jinfonet/welcome.jsp
+Logi server deployed at http://atscale.teccod.com:8888/jinfonet/welcome.jsp
